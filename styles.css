@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    
+}
+
+#logo{
+font-size: 33px;
+font-weight: bold;
+font-family: "Dancing Script";
+}
+
+nav{
+    text-align: left;
+}
+nav a{
+    font-size: 18px;
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: coral;
+}
+
+header {
+    margin: 2% 20%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#firstRow{
+    width: 60%;
+    height: 940px;
+    height: 366px;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.mainContainer{
+    width: 305px;
+    padding-top: 26%;
+    padding-left: 10%;
+}
+
+.mainContainer h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.mainContainer p{
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+.chefContainer {
+    text-align: right;
+    margin-top: 68px;
+    margin-right: 40px;
+    
+}
+
+.chef {
+    width: 216px;
+}
